@@ -1,0 +1,150 @@
+/******** TAG SELECTORS *************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*** Headings ***/
+.Big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**** Containers  *****/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/*** Tittle/Header Section ***/
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+/*Navbar*/
+.navbar {
+  padding: 0 0 8%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  margin: auto 10px;
+}
+
+/*Download Buttons*/
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+/*Header Image*/
+.header-image {
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .header-image {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/***Features Section***/
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: auto 8%;
+}
+
+.feature-icons {
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+/*** Testimonial Section ***/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+/*** Press Section ***/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 30px 20px auto;
+}
+
+/*** Pricing Section ***/
+#pricing {}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*** CTA Section ***/
+#cta {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*** Footer Section ***/
+#footer {}
+
+.footer-icon {
+  margin: auto 10px 15px;
+}
